@@ -1,0 +1,46 @@
+@import url('resets.css');
+
+body{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    margin: 10px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+aside{
+    margin: 20px;
+}
+aside a{   
+    display: flex;
+    justify-content: center;
+}
+aside a img{
+    width: 30%;
+    max-height: 20%;
+}
+main{
+    margin: 0% 15% 0% 15%;
+}
+main .titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
